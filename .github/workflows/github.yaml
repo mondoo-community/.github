@@ -15,4 +15,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_ORG_TOKEN }}
         with:
           organization: mondoo-community
-          is-cicd: false
+          is-cicd: true
