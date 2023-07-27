@@ -1,6 +1,6 @@
 # Welcome to Mondoo's collaborative workspaces 👋
 
-![An illustration showing a space kitty dreaming of exploring new worlds with Mondoo](https://raw.githubusercontent.com/mondoo-community/.github/main/profile/static/mondoo-community-gh-home.jpg)
+![An illustration showing a space kitty dreaming of exploring new worlds with Mondoo](https://raw.githubusercontent.com/mondoo-community/.github/main/profile/static/mondoo-community-gh-home.png)
 
 This GitHub organization is where we share resources with our valued partners and customers. Find your repository below.
 
