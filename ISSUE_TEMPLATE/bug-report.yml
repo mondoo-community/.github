@@ -1,7 +1,7 @@
 name: Bug Report
 description: Report an issue or bug impacting your workflow.
 title: "[BUG] Brief Title"
-labels: ["Kind/Bug", "Needs-Triage"]
+labels: ["Kind/bug", "needs-triage"]
 assignees: []  
 body:
   - type: input

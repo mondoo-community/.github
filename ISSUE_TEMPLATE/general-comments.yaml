@@ -2,7 +2,7 @@
 name: General Comments
 description: Share general feedback, suggestions, or observations about the product.
 title: "[COMMENT] Brief Title"
-labels: ["Kind/General", "Needs-Triage"]
+labels: ["Kind/general", "needs-triage"]
 assignees: []
 body:
   - type: input

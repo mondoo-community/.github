@@ -2,7 +2,7 @@
   name: Feature Request
   description: New Features or Improvement to the product.
   title: "[FEATURE] Brief Title]"
-  labels: ["Kind/Feature", "Needs-Triage"]
+  labels: ["Kind/enhancement", "needs-triage"]
   assignees: []  
   body:
     - type: input
