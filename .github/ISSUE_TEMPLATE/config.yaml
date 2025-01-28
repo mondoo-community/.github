@@ -1,0 +1,7 @@
+contact_links:                
+  - name: Documentation
+    url: https://mondoo.com/docs/
+    about: Learn more about using Mondoo's project and features.
+  - name: Community Slack Forum
+    url: https://mondoo.slack.com
+    about: Discuss ideas and feature requests with the Slack community. Nudge the Mondoo team if applicable.
