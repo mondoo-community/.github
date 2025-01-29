@@ -1,0 +1,18 @@
+name: Mondoo GitHub Organization scan
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+jobs:
+  mondoo-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: mondoohq/actions/github-org@v1.0.0
+        env:
+          MONDOO_CONFIG_BASE64: ${{ secrets.MONDOO_SERVICE_ACCOUNT }}
+          GITHUB_TOKEN: ${{ secrets.GH_ORG_TOKEN }}
+        with:
+          organization: mondoo-community
+          is-cicd: true
