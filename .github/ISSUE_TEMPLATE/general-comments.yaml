@@ -1,0 +1,67 @@
+---
+name: General Comments
+description: Share general feedback, suggestions, or observations about the product.
+title: "[General]: Brief Title"
+labels: ["general", "triage"]
+assignees: []
+body:
+  - type: input
+    id: customer_name
+    attributes:
+      label: Customer Name
+      description: "Name of the customer providing feedback."
+      placeholder: "Example: Mondoo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: contacts
+    attributes:
+      label: Contacts
+      description: "List any persons to notify about this feedback. (Github username or email.)"
+      placeholder: "Joey Brown - joeybrown@mondoo.com github:joeB"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: permission_to_contact
+    attributes:
+      label: Permission to Contact
+      description: "Can the Product or Engineering Team reach out to you for further clarification?"
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: textarea
+    id: comment_description
+    attributes:
+      label: Comment Description
+      description: "Describe your feedback, suggestion, or general observation in detail."
+      placeholder: "Please describe your feedback in detail."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: business_importance
+    attributes:
+      label: Business Importance
+      description: "Rate the importance of this feedback for your business needs."
+      options:
+        - Critical (requires immediate attention)
+        - High (valuable for ongoing initiatives)
+        - Medium (could enhance functionality)
+        - Low (general observation)
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: "Any additional context or information that may help in understanding your feedback."
+
+  - type: markdown
+    attributes:
+      value: "### Thank you for your submission!"
