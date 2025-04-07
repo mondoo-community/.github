@@ -3,6 +3,7 @@
   description: New Features or Improvement to the product.
   title: "[FEATURE] Brief Title"
   labels: ["enhancement", "triage"]
+  type: "Feature"
   assignees: []  
   body:
     - type: input
