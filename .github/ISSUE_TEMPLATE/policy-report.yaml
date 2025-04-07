@@ -1,0 +1,91 @@
+name: Policy Feedback
+description: Report issues Mondoo policies or checks.
+title: "[Content]: Brief Summary of the Issue"
+labels: ["content", "triage"]
+type: "Content"
+assignees:
+  - mm-weber
+body:
+  - type: input
+    id: customer_name
+    attributes:
+      label: Customer Name
+      description: "Name of the customer experiencing the issue."
+      placeholder: "Example: ABC Corp."
+    validations:
+      required: true
+
+  - type: textarea
+    id: contacts
+    attributes:
+      label: Contacts
+      description: "List any persons to notify about this feedback. (GitHub username or email.)"
+      placeholder: "Joey Brown - joeybrown@mondoo.com github:joeB"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: business_impact
+    attributes:
+      label: Business Impact
+      description: "Rate the impact of this issue on your business."
+      multiple: false
+      options:
+        - P1 - Blocker (critical impact)
+        - P2 - Major (significant impact)
+        - P3 - Minor (low impact)
+        - P4 - Cosmetic (very low)
+    validations:
+      required: true
+  
+  - type: textarea
+    id: policy_details
+    attributes:
+      label: Description of the Issue
+      description: |
+        Please include the following:
+        - The specific **policy** and **check** name
+        - The **result** you received (include reasoning, logic path, or screenshot evidence)
+        - What is the issue? Is it a false-positive? Rendering incorrectly?
+        
+        > Screenshots are **required** to understand what is being rendered.
+      placeholder: |
+        Policy: Mondoo macOS Security 
+        Check: Enable FileVault
+        Result: Drag and drop image(s) or upload files of the check and result.
+        What is the issue? The results are not showing
+    validations:
+      required: true
+
+  - type: textarea
+    id: asset_platform
+    attributes:
+      label: Platform or Integration
+      description: |
+        The platform the check ran against (e.g., OS, cloud environment, device type).
+      placeholder: "Example: macOS Sequoia, Windows 11, Kubernetes, Google-Workspaces, etc"
+    validations:
+      required: true
+
+  - type: input
+    id: cnspec_version
+    attributes:
+      label: Mondoo Client Version
+      description: |
+        Run `cnspec version` on the machine, or find it in the Console:
+        Inventory → Assets → Click Specific Asset → Overview → Configuration → Scan Overview → Mondoo client version
+      placeholder: "cnspec 2.2.2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: |
+        Anything else that may help us understand the issue—links to asset pages, environment notes, etc.
+ 
+
+  - type: markdown
+    attributes:
+      value: "### Thanks for helping improve Mondoo policy content!"

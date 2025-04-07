@@ -2,7 +2,8 @@ name: Bug Report
 description: Report an issue or bug impacting your workflow.
 title: "[BUG]: Brief Title"
 labels: ["bug", "triage"]
-assignees: []  
+type: "Bug"
+assignees: []
 body:
   - type: input
     id: customer_name
