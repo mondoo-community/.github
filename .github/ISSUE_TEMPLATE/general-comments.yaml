@@ -18,7 +18,7 @@ body:
     id: contacts
     attributes:
       label: Contacts
-      description: "List any persons to notify about this feedback. (Github username or email.)"
+      description: "List any persons to notify about this feedback. (GitHub username or email.)"
       placeholder: "Joey Brown - joeybrown@mondoo.com github:joeB"
     validations:
       required: true

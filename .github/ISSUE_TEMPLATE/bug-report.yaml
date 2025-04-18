@@ -13,12 +13,12 @@ body:
       placeholder: "Example: ABC Corp."
     validations:
       required: true
-  
+
   - type: textarea
     id: contacts
     attributes:
       label: Contacts
-      description: "List any persons to notify about this feedback. (Github username or email.)"
+      description: "List any persons to notify about this feedback. (GitHub username or email.)"
       placeholder: "Joey Brown - joeybrown@mondoo.com github:joeB"
     validations:
       required: true
@@ -53,7 +53,7 @@ body:
       description: "Describe any troubleshooting steps and/or workarounds you’ve taken so far.  Please add any relevant screenshots, logs, links, etc.\n\nFor scans, please run in debug mode using `DEBUG=1 cnspec scan <target asset>` and attach all `mondoo-debug` files."
     validations:
       required: true
-      
+
   - type: textarea
     id: steps_to_reproduce
     attributes:
@@ -75,7 +75,7 @@ body:
     attributes:
       label: Additional Context
       description: "Any additional context or information that may help resolve the issue."
-      
+
   - type: markdown
     attributes:
       value: "### Thank you for your submission!"
