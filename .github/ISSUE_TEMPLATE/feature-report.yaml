@@ -4,7 +4,7 @@
   title: "[FEATURE] Brief Title"
   labels: ["enhancement", "triage"]
   type: "Feature"
-  assignees: []  
+  assignees: []
   body:
     - type: input
       id: customer_name
@@ -19,7 +19,7 @@
       id: contacts
       attributes:
         label: Contacts
-        description: "List any persons to notify about this feedback. (Github username or email.)"
+        description: "List any persons to notify about this feedback. (GitHub username or email.)"
         placeholder: "Joey Brown - joeybrown@mondoo.com github:joeB"
       validations:
         required: true
@@ -35,7 +35,7 @@
           - "No"
       validations:
         required: true
-  
+
     - type: textarea
       id: feature_description
       attributes:
@@ -43,7 +43,7 @@
         description: "Describe the requested feature in detail, including the intended outcome and specific functionality."
       validations:
         required: true
-  
+
     - type: dropdown
       id: business_importance
       attributes:
@@ -70,13 +70,13 @@
           - NO, GENERAL ENHANCEMENT 🌸
       validations:
         required: true
-  
+
     - type: textarea
       id: workarounds
       attributes:
         label: Workarounds
         description: "Describe any workarounds you're currently using or have tried.\n Please attach any relevant artifacts such as screenshots, links, code, etc."
-  
+
     - type: textarea
       id: additional_context
       attributes:
