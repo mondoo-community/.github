@@ -4,7 +4,7 @@ title: "[Content]: Brief Summary of the Issue"
 labels: ["content", "triage"]
 type: "Content"
 assignees:
-  - mm-weber
+  - syrull
 body:
   - type: input
     id: customer_name
