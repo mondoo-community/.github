@@ -8,7 +8,7 @@ This GitHub organization is where we share resources with our valued partners an
 
 You're almost there! You can find all our open source projects in our primary GitHub organization: [github.com/mondoohq](https://github.com/mondoohq), including:
 
-  🐈 [cnquery](https://github.com/mondoohq/cnquery), our cloud-native tool for querying your entire fleet
+  🐈 [mql](https://github.com/mondoohq/cnquery), our cloud-native tool for querying your entire fleet
 
   &
 
